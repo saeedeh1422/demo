@@ -1,6 +1,5 @@
 
 {
-{
   "productlist": [
     {
       "id": 1,
@@ -50,8 +49,8 @@
       "priceold": "1000t",
       "pricenew": "5000t"
     }
-  ] },
- {
+  ] ,
+ 
   "commentlist": [
     {
       "id": 1,
@@ -68,8 +67,8 @@
       "productid": "3",
       "descripton": "third comment"
     }
-  ]},
-{
+  ],
+
     "profile": {
     "name": "saeedejamali",
     "username": "sj",
@@ -80,7 +79,7 @@
       "karaj",
       "booein"
     ]
-  }}
+  }
 } 
 
 
