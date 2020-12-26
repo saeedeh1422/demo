@@ -1,14 +1,84 @@
+
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "productlist": [
+    {
+      "id": 1,
+      "name": "کش",
+      "instock": true,
+      "imgurl": "https://www.radykala.com/img",
+      "priceold": "12000t",
+      "pricenew": "15000t"
+    },
+    {
+      "id": 2,
+      "name": "طناب",
+      "instock": false,
+      "imgurl": "https://www.radykala.com/img",
+      "priceold": "1000t",
+      "pricenew": "5000t"
+    },
+    {
+      "id": 3,
+      "name": "وزنه",
+      "instock": false,
+      "imgurl": "https://www.radykala.com/img",
+      "priceold": "1000t",
+      "pricenew": "5000t"
+    },
+    {
+      "id": 4,
+      "name": "دمبل",
+      "instock": true,
+      "imgurl": "https://www.radykala.com/img",
+      "priceold": "1000t",
+      "pricenew": "5000t"
+    },
+    {
+      "id": 5,
+      "name": "کفش ورزشی",
+      "instock": false,
+      "imgurl": "https://www.radykala.com/img",
+      "priceold": "1000000t",
+      "pricenew": "5000000t"
+    },
+    {
+      "id": 6,
+      "name": "حلقه",
+      "instock": true,
+      "imgurl": "https://www.radykala.com/img",
+      "priceold": "1000t",
+      "pricenew": "5000t"
+    }
+  ] ,
+ 
+  "commentlist": [
+    {
+      "id": 1,
+      "productid": "3",
+      "descripton": "first comment"
+    },
+    {
+      "id": 2,
+      "productid": "4",
+      "descripton": "second comment"
+    },
+    {
+      "id": 3,
+      "productid": "3",
+      "descripton": "third comment"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+    "profile": {
+    "name": "saeedejamali",
+    "username": "sj",
+    "phone": "0912345678",
+    "pass": "12345",
+    "address": [
+      "tehran",
+      "karaj",
+      "booein"
+    ]
   }
-}
+} 
+
+
